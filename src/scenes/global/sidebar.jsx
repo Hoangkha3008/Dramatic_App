@@ -23,6 +23,7 @@ import LocalMoviesOutlinedIcon from '@mui/icons-material/LocalMoviesOutlined';
 import { useEffect } from "react";
 import { getAllAdmin } from "../../redux/apiRequest";
 import { useDispatch, useSelector } from "react-redux";
+import jwt from 'jwt-decode';
 
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
@@ -50,9 +51,15 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
 
 const Sidebar = () => {
   const theme = useTheme();
+  const user = '';
   const colors = tokens(theme.palette.mode);
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [selected, setSelected] = useState("Dashboard");
+  const token = localStorage.getItem('token')
+  if(token != null){
+    user = jwt(token)
+  }
+  console.log(user)
   // const userName = useSelector((state)=> state.auth.login.currentUser)
 
   // console.log(userName.data.accessToken)

@@ -8,4 +8,4 @@ export default configureStore({
         auth:authReducer,
         users:userReducer,
     }
-})
+});
