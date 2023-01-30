@@ -1,0 +1,55 @@
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.contact-details .details {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.contact-details .map {
+  width: 100%;
+}
+
+.contact__map-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact-details .details li {
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+
+#contact-details .details li i {
+  font-size: 1.8rem;
+  padding-right: 22px;
+  text-align: center;
+}
+
+#contact-details .details li p {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.contact__map-title:nth-child(1),
+.contact__map-title:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .section-p1 {
+    padding: 40px 80px;
+  }
+
+  .contact__map-title {
+    flex-direction: column;
+  }
+  .contact__map-title {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact__map-title .map {
+    width: 100%;
+  }
+}

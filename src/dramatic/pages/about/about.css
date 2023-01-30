@@ -1,0 +1,71 @@
+.showducle {
+  margin-top: 50px;
+}
+.row_s {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.title {
+  color: #111;
+  font-family: "Conv_UTM Swiss 721 Black Condensed";
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+.schedule-blk table {
+  width: 100%;
+  text-align: left;
+  line-height: 4rem;
+  border: solid 1px #ededed;
+}
+
+.schedule-blk table tr th{
+  font-size: 1.8rem;
+}
+
+.schedule-blk tbody td{
+  font-size: 1.5rem;
+}
+
+.schedule-blk th {
+  border: solid 1px #9a9a9a;
+  background: #333;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+.schedule-blk table td {
+  border: solid 1px #9a9a9a;
+  padding: 8px 10px;
+  background: #fff;
+  text-align: center;
+}
+
+.vk-tb {
+  font-weight: bold;
+  display: block;
+  font-size: 16px;
+  color: #2d3294;
+  margin: 10px 0 0 10px;
+}
+
+.category-vk {
+  display: block;
+  font-size: 12px;
+  color: #888;
+  margin-left: 10px;
+}
+
+@media (min-width: 992px) {
+  .col-md-12 {
+    width: 100%;
+  }
+}
